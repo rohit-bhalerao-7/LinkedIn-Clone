@@ -1,0 +1,376 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+font-size: 62.5%;
+}
+
+body {
+    background-color: #f3f2ef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:'Times New Roman', Times;
+}
+
+
+/* Header */
+.header_left img {
+    object-fit: cover;
+    height: 4rem;
+    margin-right: 1.5rem;
+}
+
+.header {
+    width: 100%;
+    position: sticky;
+    display: flex;
+    top: 0;
+    left: 0;
+    right:0;
+    z-index: 999;
+    justify-content: space-evenly;
+    border-bottom: 0.01rem solid lightgray;
+    padding: 1rem;
+    background-color: white;
+    align-items: center;
+}
+
+.header_left {
+    display: flerem
+}
+
+.header_right {
+    display: flex;
+}
+
+.header_search {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    border-radius: 0.5rem;
+    height: 2.2rem;
+    color: gray;
+    background-color: #eef3f8;
+}
+
+.header_search input {
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.headerOptions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 2rem;
+    color: gray;
+    cursor: pointer;
+}
+
+.headerOptions:hover {
+    color: black;
+}
+
+.headerOptions h3 {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    font-weight: 400;
+}
+
+.headerOptions_icon {
+    margin-right: .5rem;
+    height: 2rem;
+    width: 2rem;
+}
+
+/* Main Body */
+.body_main {
+    display: flex;
+    margin-top: 3.5rem;
+    max-width: 120rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    justify-content: center;
+}
+
+/* Sidebar */
+.sidebar {
+    position: static;
+    top: 8rem;
+    flex: 0.2;
+    border-radius: 1rem;
+    text-align: center;
+    height: fit-content;
+    margin-right: 2rem;
+
+}
+
+.sidebar_top img {
+    margin-bottom: -2rem;
+    width: 100%;
+    height: 6rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    object-fit: cover;
+}
+
+.sidebar_top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: .1rem solid lightgray;
+    border-bottom: 0;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    background-color: white;
+    padding-bottom: 4rem;
+}
+
+.sidebar_top b {
+    cursor: pointer;
+}
+
+.sidebar_topAvatar {
+    font-size: 4rem;
+}
+
+.sidebar_stats {
+    padding: 1rem;
+    margin-bottom: 1px;
+    border: .1rem solid lightgray;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-color: white;
+    text-align: left;
+    border: .1rem solid lightgray;
+    border-bottom: 0;
+}
+
+.sidebar_pre {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: .1rem solid lightgray;
+    border-radius: 1rem;
+    background-color: white;
+    text-align: left;
+    border: .1rem solid lightgray;
+    border-bottom: 0;
+}
+
+.sidebar_stat {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar_stat p {
+    color: gray;
+    font-size: 1.3rem;
+    font-weight: 6rem
+}
+
+.sidebar_statNumber {
+    font-weight: bold;
+    color: #0a66c2 !important;
+}
+.sidebar_stat :hover{
+    background-color: lightgray;
+}
+
+.sidebar_top h4 {
+    color: gray;
+    font-size: 1.2rem;
+    margin-top: .5rem;
+}
+
+.sidebar_top h2 {
+    font-size: 1.8rem;
+}
+
+.sidebar_bottom {
+    text-align: left;
+    padding: 1rem;
+    border: .1rem solid lightgray;
+    background-color: white;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+
+.sidebar_recentItem {
+    display: flex;
+    font-size: 1.3rem;
+    color: gray;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-bottom: .5rem;
+    padding: .5rerem
+}
+
+.sidebar_recentItem:hover {
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    cursor: pointer;
+    color: black;
+}
+
+.sidebar_hash {
+    margin: 0 1rem;
+}
+
+.sidebar_bottom p {
+    font-size: 1.4rem;
+    padding-bottom: 1rem;
+}
+
+/* Feed */
+.feed {
+    flex: 1;
+    max-width: min-content;
+    max-width: 45%;
+}
+
+.feed_inputContainer {
+    background-color: white;
+    padding: 10rem;
+    padding-bottom: 2rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+.feed_input {
+    border: .1rem solid lightgray;
+    border-radius: 3rem;
+    display: flex;
+    padding: 1rem;
+    color: gray;
+    padding-left: 1.5rem;
+}
+
+.feed_input form {
+    display: flex;
+    width: 100%;
+}
+
+.feed_input form input {
+    border: none;
+    flex: 1;
+    margin-left: 1rem;
+    outline-width: 0;
+    font-weight: 600;
+}
+
+.feed_inputOptions {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.inputOption {
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+    color: gray;
+    cursor: pointer;
+}
+
+.inputOption :hover {
+    background-color: whitesmoke;
+    border-radius: 1.0rem;
+}
+
+.inputOption h4 {
+    margin-left: .5rem;
+}
+
+/* Post */
+.post {
+    background-color: white;
+    padding: 1.5rem;
+    margin-bottom: 1.0rem;
+    border-radius: 1.0rem;
+}
+
+.post_header {
+    display: flex;
+    margin-bottom: 1.0rem;
+}
+
+.post_info {
+    margin-left: 1.0rem;
+}
+
+.post_info p {
+    font-size: 1.2rem;
+    color: gray;
+}
+
+.post_info h2 {
+    font-size: 1.5rem;
+}
+.post_body img{
+    width: 100%;
+    object-fit:contain;
+}
+
+/* Widgets */
+.widgets {
+    position: static;
+    top: 8.0rem;
+    flex: 0.25;
+    height: fit-content;
+    padding-bottom: 1.0rem;
+    margin-left: 2.0rem;
+}
+
+.widgets_top {
+    background-color: white;
+    border-radius: 1.0rem;
+    border: .1rem solid lightgray;
+}
+
+.widgets_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.widgets_article {
+    display: flex;
+    padding: 1.0rem;
+    cursor: pointer;
+}
+
+.widgets_article :hover {
+    background-color: whitesmoke;
+}
+
+.widgets_articleLeft {
+    color: #0177b7;
+    margin-right: .5rem;
+}
+
+.widgets_articleLeftl material-symbols-outlined {
+    font-size: 1.5rem;
+}
+
+.widgets_articleRight h4 {
+    font-size: 1.4rem;
+}
+
+.widgets_articleRight p {
+    font-size: 1.2rem;
+    color: gray;
+}
+
+.widget_bottom {
+    position: sticky;
+    top: 8.0rem;
+    flex: 1;
+    height: fit-content;
+    padding: 1.0rem;
+    margin-left: 2.0rem;
+    color: gray;
+}
