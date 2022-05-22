@@ -419,12 +419,6 @@ body {
     font-size: 1.5rem;
     text-align: center;
 }
-.widget_bottom1 img{
-    object-fit: cover;
-    height: 2rem;
-    margin-right: .5rem;
-    flex-wrap: nowrap;
-}
 .widget_bottom1{
     font-size: 1.5rem;
     text-align: center;
